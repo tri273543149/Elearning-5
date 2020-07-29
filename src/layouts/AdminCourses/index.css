@@ -1,0 +1,100 @@
+.admin_courses {
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+  min-height: 550px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.admin_courses .control_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: orange;
+  padding: 10px 100px;
+}
+.admin_courses .control_content .title {
+  font-size: 25px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+.admin_courses .control_content input {
+  flex-grow: 4;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.admin_courses .control_content input:focus,
+.admin_courses .control_content select:focus {
+  outline: none;
+}
+.admin_courses .control_content select {
+  flex-grow: 2;
+  margin: 0 15px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.admin_courses .control_content .icon_content {
+  flex-grow: 2;
+  text-align: center;
+}
+.admin_courses .control_content .icon_content i {
+  color: white;
+  font-size: 20px;
+}
+.admin_courses .control_content .icon_content i.active {
+  color: green;
+}
+.admin_courses .control_content button {
+  flex-grow: 0.5;
+}
+
+/* ------------- */
+.admin_courses .course_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admin_courses .course_row .index {
+  width: 10%;
+  color: black;
+  margin-bottom: 0;
+}
+.admin_courses .course_row .course_name a,
+.admin_courses .course_row .course_name a:hover {
+  text-decoration: none !important;
+}
+.admin_courses .course_row .course_name a {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+.admin_courses .course_row .course_name {
+  width: 45%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.admin_courses .course_row img {
+  width: 20%;
+  height: 50px;
+}
+.admin_courses .course_row .btn_style {
+  width: 25%;
+}

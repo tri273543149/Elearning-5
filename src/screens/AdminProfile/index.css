@@ -1,0 +1,35 @@
+.admin_profile{
+    padding-top: 50px;
+}
+.admin_profile .top_content{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: green;
+}
+.admin_profile .top_content .content_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin_profile .top_content .title{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.admin_profile .top_content .log_out{
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+.admin_profile .top_content .log_out:hover{
+    color: orange;
+}
+/* --------------- */
+.admin_profile .mid_content{
+    background: url(./background.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    padding: 30px 10px;
+}

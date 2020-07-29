@@ -1,0 +1,18 @@
+.on_sign_in img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.header_content .login_content a:hover{
+    text-decoration: none !important;
+}
+.on_sign_in span{
+    text-decoration: none !important;
+    color: green;
+    padding-right: 5px;
+    font-weight: bold;
+}

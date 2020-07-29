@@ -1,0 +1,111 @@
+.user_profile{
+    padding-top: 50px;
+}
+.user_profile .top_content{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background: orange;
+}
+.user_profile .top_content .title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+/* ----------- */
+.user_profile .mid_content{
+    padding: 30px 0;
+    min-height: 500px;
+    background: url(./background.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.user_profile .mid_content .content_box{
+    min-height: 300px;
+    width: 100%;
+    border: solid 1px grey;
+    background: rgba(255, 255, 255, 0.6);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.user_profile .mid_content .img_content{
+    text-align: center;
+    position: relative;
+}
+.user_profile .mid_content .img_content .hover_lay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.user_profile .mid_content .img_content:hover .hover_lay{
+    opacity: 1;
+}
+.user_profile .mid_content .img_content .hover_lay i{
+    font-size: 30px;
+    color: grey;
+}
+.user_profile .mid_content .img_content img{
+    width: 100%;
+    height: 200px;
+    border: solid 2px green;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.user_profile .mid_content .user_name{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.user_profile .mid_content .user_job{
+    margin-bottom: 0;
+    font-size: 15px;
+    color: green;
+}
+.user_profile .mid_content .text_content{
+    padding: 20px 0;
+}
+.user_profile .mid_content .text_content p{
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.user_profile .mid_content .text_content p:hover{
+    color: green;
+}
+.user_profile .mid_content .text_content i{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}

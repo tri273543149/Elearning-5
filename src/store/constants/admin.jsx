@@ -1,0 +1,9 @@
+export const ADD_NEW_COURSE = "ADD_NEW_COURSE";
+export const DELETE_COURSE = "DELETE_COURSE";
+export const UPDATE_COURSE = "UPDATE_COURSE";
+//
+export const ADD_NEW_USER = "ADD_NEW_USER";
+export const DELETE_USER = "DELETE_USER";
+export const UPDATE_USER = "UPDATE_USER";
+//
+export const GET_STUDENT_OF_COURSE = "GET_STUDENT_OF_COURSE";

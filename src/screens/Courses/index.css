@@ -1,0 +1,175 @@
+.courses {
+  padding-top: 50px;
+}
+.courses .top_content {
+  display: flex;
+  align-items: center;
+  background: orange;
+  height: 100px;
+}
+.courses .top_content .content_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.courses .top_content .title {
+  flex-grow: 3;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.courses .top_content input {
+  flex-grow: 4;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.courses .top_content input::placeholder {
+  color: green;
+}
+.courses .top_content select {
+  flex-grow: 1;
+  padding: 5px 10px;
+  color: green;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.courses .top_content select:focus,
+.courses .top_content input:focus {
+  outline: none;
+}
+.courses .top_content .control_icons {
+  flex-grow: 2;
+  text-align: right;
+}
+.courses .top_content .control_icons i {
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+.courses .top_content .control_icons i:hover {
+  color: green;
+}
+.courses .top_content .control_icons i.active {
+  color: green;
+}
+/* ------ */
+.courses .mid_content {
+  padding: 30px 0;
+  min-height: 500px;
+}
+.courses .mid_content a,
+.courses .mid_content a:hover {
+  text-decoration: none !important;
+}
+
+/* ------------ */
+.courses .course_item_1 {
+  border: solid 1px grey;
+  height: 280px;
+}
+.courses .course_item_1 img {
+  width: 100%;
+  height: 140px;
+}
+.courses .course_item_1 .text_box {
+  padding: 10px;
+}
+.courses .course_item_1 .course_name {
+  overflow: hidden;
+  height: 47px;
+  font-weight: bold;
+}
+.courses .course_item_1 .course_desc {
+  overflow: hidden;
+  height: 40px;
+  color: grey;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.courses .course_item_1 .course_star {
+  font-size: 13px;
+  color: orange;
+}
+/* ----------- */
+.courses .renders_style_1_box {
+  position: relative;
+}
+.courses .renders_style_1_box .icon_1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: green;
+  font-size: 22px;
+}
+.courses .renders_style_1_box .icon_1:hover {
+  color: orange;
+}
+
+/* ----------------- */
+.courses .course_item_2 {
+  display: flex;
+  overflow: hidden;
+}
+.courses .course_item_2 .text_box {
+  width: 75%;
+  padding-left: 10px;
+}
+.courses .course_item_2 img {
+  width: 25%;
+  height: 70px;
+}
+.courses .course_item_2 .course_name {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.courses .course_item_2 .course_desc {
+  width: 100%;
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: grey;
+}
+.courses .course_item_2 .course_star {
+  font-size: 13px;
+  color: orange;
+}
+.courses .renders_style_2_box {
+  position: relative;
+}
+.courses .renders_style_2_box .cart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 131px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.courses .renders_style_2_box .cart:hover {
+  opacity: 1;
+}
+.courses .renders_style_2_box .cart i {
+  font-size: 20px;
+  color: green;
+}

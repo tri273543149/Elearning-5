@@ -1,0 +1,79 @@
+.carousel_courses {
+  background: #f3f6f8;
+  text-align: center;
+  padding: 30px 5px;
+}
+.carousel_courses .title {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.carousel_courses .body {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+/* .carousel_courses .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    height: 340px;
+  } */
+.carousel_courses a {
+  text-decoration: none;
+}
+.carousel_courses a:hover {
+  text-decoration: none;
+}
+.carousel_courses .carousel_courses_item {
+  border: solid 1px gray;
+  background: white;
+  text-align: left;
+}
+.carousel_courses .carousel_course_box {
+  position: relative;
+}
+.carousel_courses .carousel_course_box .cart {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+  font-size: 25px;
+  color: green;
+  cursor: pointer;
+}
+.carousel_courses .carousel_course_box .cart:hover {
+  color: orange;
+}
+.carousel_courses .carousel_courses_item img {
+  width: 100%;
+  height: 150px;
+}
+.carousel_courses .carousel_courses_item .text_box {
+  padding: 15px;
+}
+.carousel_courses .carousel_courses_item .course_name {
+  overflow: hidden;
+  font-weight: bold;
+  height: 50px;
+  font-size: 15px;
+}
+.carousel_courses .carousel_courses_item .course_desc {
+  overflow: hidden;
+  height: 40px;
+  font-size: 13px;
+  color: grey;
+}
+.carousel_courses .carousel_courses_item .course_star {
+  font-size: 13px;
+  color: orange;
+  height: 20px;
+}
+.carousel_courses .carousel_courses_item .course_star span {
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+}

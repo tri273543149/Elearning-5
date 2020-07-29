@@ -1,0 +1,36 @@
+.slider {
+    padding-top: 50px;
+}
+.slider .content_background {
+  position: relative;
+  height: 400px;
+  background: url(./background.jpg) no-repeat;
+  background-size: cover;
+}
+.slider .content_box {
+  position: absolute;
+  width: 30%;
+  bottom: 100px;
+  left: 50px;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.slider .content_box .title {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.slider .content_box .body {
+  font-size: 20px;
+}
+.slider .content_box input {
+  width: 100%;
+  padding: 8px 16px;
+}
+.slider .content_box input:focus {
+  outline: none;
+}

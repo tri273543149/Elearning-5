@@ -1,0 +1,125 @@
+.shopping_cart {
+  padding-top: 50px;
+}
+.shopping_cart .top_content {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background: orange;
+}
+.shopping_cart .top_content .title {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.shopping_cart .mid_content {
+  padding: 50px 0;
+  background: url(./shopping.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 550px;
+}
+.shopping_cart .mid_content .left_box {
+  width: 70%;
+  min-height: 300px;
+}
+.shopping_cart .mid_content a,
+.shopping_cart .mid_content a:hover {
+  text-decoration: none !important;
+}
+.shopping_cart .cart_item {
+  border: solid 2px grey;
+  height: 300px;
+  background: white;
+}
+.shopping_cart .cart_item img {
+  width: 100%;
+  height: 150px;
+}
+.shopping_cart .cart_item .content_box {
+  padding: 20px 10px;
+}
+.shopping_cart .cart_item .course_name {
+  height: 46px;
+  overflow: hidden;
+  font-weight: bold;
+}
+.shopping_cart .cart_item .course_desc {
+  font-size: 14px;
+  height: 40px;
+  overflow: hidden;
+  color: grey;
+  margin-bottom: 5px;
+}
+.shopping_cart .cart_item .course_star {
+  font-size: 13px;
+  color: orange;
+}
+/* ---------- */
+.shopping_cart .cart_item_box {
+  position: relative;
+}
+.shopping_cart .cart_item_box .icon_1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border: solid 1px red;
+  text-align: center;
+  padding-top: 10px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.shopping_cart .cart_item_box .icon_1:hover {
+  background: white;
+  color: red;
+  border: white;
+}
+.shopping_cart .cart_item_box .course_price {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* ----------------- */
+.shopping_cart .mid_content .right_box {
+  width: 30%;
+  min-height: 300px;
+  padding: 0 20px;
+}
+.shopping_cart .mid_content .right_box .content_box {
+  border: solid 1px grey;
+  background: white;
+}
+.shopping_cart .mid_content .cart_status {
+  background: green;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+.shopping_cart .right_box .text_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.shopping_cart .right_box .item_left{
+    padding-left: 20px;
+}
+.shopping_cart .right_box .item_right{
+    text-align: right;
+    padding-right: 20px;
+}
+.shopping_cart .right_box .item_last {
+  grid-column: 1 / 3;
+  padding: 0 20px;
+}
+.shopping_cart .right_box .item{
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
